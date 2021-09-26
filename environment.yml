@@ -1,0 +1,6 @@
+name: env_myself
+channels:
+    - anaconda
+    - conda-forge
+dependencies:
+    - nodejs>=16.0
