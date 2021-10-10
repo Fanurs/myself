@@ -4,7 +4,14 @@ This is Fanurs from Malaysia, currently studying experimental nuclear physics at
 
 I like analyzing data and learning new cool stuff (mostly analytic).
 
-Python and C++ are the most common tools that I use nowadays, but I also know a couple of other languages
+Python and C++ are the most common tools that I use nowadays, but I also know a couple of other languages.
+
+### GitHub
+
+- [Main page](https://github.com/Fanurs)
+- [Thesis project (ongoing)](https://github.com/Fanurs/data-analysis-e15190-e14030)
+- [Thesis project (deprecated)](https://github.com/nscl-hira/E15190-Unified-Analysis-Framework)
+- [Nuclear simulations](https://github.com/nscl-hira/NuclearTransportModels)
 
 ### Talks
 
