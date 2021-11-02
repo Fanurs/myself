@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Hash map</title>
+  </head>
+  <body>
+    <!-- Get the hash method from emn178 -->
+    <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256/build/sha256.min.js"></script>
+    <script>hash_method = sha256;</script>
+
+    <!-- User interface -->
+    <div id="div-input">
+      <span id="input" contenteditable="true">Enter secret message here. It will then be encrypted into the string below:</span>
+    </div>
+    <br>
+    <div id="div-output">
+      <span id="hash_result"></span>
+    </div>
+
+    <!-- Interface logic -->
+    <script>
+      document.getElementById("input").addEventListener("input", function(evt) {
+        document.getElementById("hash_result").innerHTML = hash_method(this.innerHTML);
+      });
+
+      document.getElementById("hash_result").innerHTML = hash_method(document.getElementById("input").innerHTML);
+    </script>
+
+    <!-- CSS -->
+    <style>
+      /* Make input with max-width 300px and at least one-line height */
+      #div-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        min-width: 300px;
+        max-width: 100%;
+        min-height: 1.5em;
+      }
+      #input {
+        max-width: 100%;
+        min-width: 300px;
+        min-height: 1.5em;
+        border: 1px solid black;
+      }
+
+      /* Make output div without border and one line width */
+      #div-output {
+        border: none;
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+      }      
+    </style>
+  </body>
+</html>

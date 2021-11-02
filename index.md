@@ -18,3 +18,6 @@ Python and C++ are the most common tools that I use nowadays, but I also know a 
 ### Notes (Jupyter Notebook)
 - [Progress reports](https://groups.nscl.msu.edu/hira/fanurs/progress.html)
 - [PyMC3 - Toy model on Bayesian inference with Gaussian emulator](https://groups.nscl.msu.edu/hira/fanurs/progress/20210313_ipynb.html)
+
+### Miscellaneous
+- [Hash256](https://fanurs.github.io/myself/blockchain-tutorials/hash-map/index.html)
